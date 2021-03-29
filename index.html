@@ -15,45 +15,72 @@
 <body>
 
 
-    <body>
-        <!-- -->
-        <div id="mocha"></div>
-        <script>
-            // the mocha test style to use - we use BDD - Behviour Driven Development
-            mocha.setup('bdd');
-            //ensure the assert function is available
-            var assert = chai.assert;
-        </script>
-    
-        <!-- the function to be tested -->
-        <script src="greet.js"utf-8"></script>
-        <!-- followed by the tests -->
-        <script src="greet.test.js"utf-8"></script>
+    <!-- -->
+    <div id="mocha"></div>
+    <script>
+        // the mocha test style to use - we use BDD - Behviour Driven Development
+        mocha.setup('bdd');
+        //ensure the assert function is available
+        var assert = chai.assert;
+    </script>
 
-        <!-- the function to be tested -->
-        <script src="isFromBellville.js"utf-8"></script>
-        <!-- followed by the tests -->
-        <script src="isFromBellville.test.js"utf-8"></script>
+    <!-- the function to be tested -->
+    <script src="greet.js" charset="utf-8"></script>
+    <!-- followed by the tests -->
+    <script src="greet.test.js" charset="utf-8"></script>
 
-        <!-- the function to be tested -->
-        <script src="regCheck.js" utf-8"></script>
-        <!-- followed by the tests -->
-        <script src="regCheck.test.js"></script>
+    <!-- the function to be tested -->
+    <script src="isFromBellville.js" charset="utf-8"></script>
+    <!-- followed by the tests -->
+    <script src="isFromBellville.test.js" charset="utf-8"></script>
 
-        <!-- the function to be tested -->
-        <script src="countRegNumber.js" utf-8"></script>
-        <!-- followed by the tests -->
-        <script src="countRegNumber.test.js" utf-8"></script>
-       
-       
+    <!-- the function to be tested -->
+    <script src="regCheck.js" charset="utf-8"></script>
+    <!-- followed by the tests -->
+    <script src="regCheck.test.js" charset="utf-8"></script>
+
+    <!-- the function to be tested -->
+    <script src="countRegNumber.js" charset="utf-8"></script>
+    <!-- followed by the tests -->
+    <script src="countRegNumber.test.js" charset="utf-8"></script>
+
+    <!-- the function to be tested -->
+    <script src="isWeekday.js" charset="utf-8"></script>
+    <!-- followed by the tests -->
+    <script src="isWeekday.test.js" charset="utf-8"></script>
+
+    <!-- the function to be tested -->
+    <script src="yearsAgo.js" charset="utf-8"></script>
+    <!-- followed by the tests -->
+    <script src="yearsAgo.test.js" charset="utf-8"></script>
+
+    <!-- the function to be tested -->
+    <script src="countAllPaarl.js" charset="utf-8"></script>
+    <!-- followed by the tests -->
+    <script src="countAllPaarl.test.js" charset="utf-8"></script>
+
+    <!-- the function to be tested -->
+    <script src="countAllFromTown.js" charset="utf-8"></script>
+    <!-- followed by the tests -->
+    <script src="countAllFromTown.test.js" charset="utf-8"></script>
+
+    <!-- the function to be tested -->
+    <script src="transportFee.js" charset="utf-8"></script>
+    <!-- followed by the tests -->
+    <script src="transportFee.test.js" charset="utf-8"></script>
+
+    <!-- the function to be tested -->
+    <script src="totalPhoneBill.js" charset="utf-8"></script>
+    <!-- followed by the tests -->
+    <script src="totalPhoneBill.test.js" charset="utf-8"></script>
 
 
-        <script>
-            <!-- configure and run mocha -->
-            mocha.checkLeaks();
-            mocha.run();
-        </script>
-    </body>
+
+    <script>
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
+</body>
 
 </html>
 </body>
