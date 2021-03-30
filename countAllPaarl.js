@@ -1,12 +1,14 @@
-function allPaarl(regNoForPaarl) {
-    //console.log(regNoForPaarl);
-     var string = regNoForPaarl.split(', ');
-    var arry = [];
-  for(var i=0;i<string.length;i++){
-    var paarl = string[i];
-    if (paarl.includes("CJ")) {
-      arry.push(paarl)
+  function countAllPaarl(regNo) {
+    //console.log(regNo)
+    var array1 = regNo.split(', ');
+    //console.log(array1)
+    var array2 = [];
+    for (var i=0;i<array1.length;i++) {
+      if(array1[i].startsWith('CJ')){
+      array2.push(array1[i]);
+      }
+      console.log(array2[i])
+      
     }
-    }
-    return arry;
+  return array2.length;
   }
