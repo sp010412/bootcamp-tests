@@ -3,10 +3,10 @@ var dat1 = [{ "department": "electronics", "sales": 4500, "day": "Monday" }, { "
 
 describe('mostProfitableDepartment', function () {
 
-    it('should return the most profitable department', function () {
+    it('should return the name of the most profitable department in the list data', function () {
         assert.deepEqual('outdoor', mostProfitableDepartment(data));
     });
-    it('should return the most profitable department', function () {
+    it('should return the name of the most profitable department in the list dat1', function () {
         assert.deepEqual('electronics', mostProfitableDepartment(dat1));
     });
 
